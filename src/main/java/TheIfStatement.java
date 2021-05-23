@@ -2,16 +2,16 @@ public class TheIfStatement {
 
 
 //Non-Static
-/*  public String weatherCheck(Boolean isItRaining) {
+ public String weatherCheck(Boolean isItRaining) {
 
-    if (isItRaining == true) {
+    if (isItRaining /*Can put == true but by default it runs true first*/) {
       return "Dont go outside! It is raining!";
     } else {
       return "Enjoy outside! The weather is nice!";
 
   }
 
- */
+
 
 //Static
   /*public static String weatherCheck(Boolean isItRaining) {
@@ -25,7 +25,7 @@ public class TheIfStatement {
 
 }
 
-   */}
+   */}}
 
 
 //if statement on its own
