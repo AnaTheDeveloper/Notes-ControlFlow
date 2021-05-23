@@ -49,14 +49,32 @@ public class CallFlows {
 
   //if else with || and &&
 
+    IfElseWithOrAndAnd ifElseWithOrAndAnd = new IfElseWithOrAndAnd();
+    System.out.println(ifElseWithOrAndAnd.doesChildDeserveIceCream(true, true, false));
 
   //if else with !
 
+    IfElseExclamationMark ifElseExclamationMark = new IfElseExclamationMark();
+    System.out.println(ifElseExclamationMark.isItRaining(false));
 
   //try catch
+ControlFlowCatch controlFlowCatch = new ControlFlowCatch();
+
+
+controlFlowCatch.divisionCalculator(10,0);
+
+
 
 
   //try throw
+ ControlFlowThrow controlFlowThrow = new ControlFlowThrow();
+
+ try {
+   System.out.println(controlFlowThrow.divisionCalculatorVersionTwo(2,0));
+ } catch (Exception e){
+   System.out.println("You are trying to divide by zero THE SECOND MSG");
+ }
+
 
 }
 }
