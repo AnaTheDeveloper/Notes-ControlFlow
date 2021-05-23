@@ -30,13 +30,22 @@ public class CallFlows {
 
    /* Switch changeSubject = new Switch();
     System.out.println(changeSubject.courseChanger("Geography"));
-    
+
     */
 
   //if else with ||
 
+  /*IfElseWithOr ifElseWithOr = new IfElseWithOr();
+    System.out.println(ifElseWithOr.heathenSubjects("Photography"));
+
+   */
+
   //if else with &&
 
+    /*IfElseWithAndAnd ifElseWithAndAnd = new IfElseWithAndAnd();
+    System.out.println(ifElseWithAndAnd.canBuyAlcoholChecker(21, true, 9));
+
+     */
 
   //if else with || and &&
 
